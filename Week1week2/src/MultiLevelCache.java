@@ -164,5 +164,4 @@ public class MultiLevelCache {
 
         cache.getStatistics();
     }
-}{
 }
