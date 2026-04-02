@@ -18,7 +18,6 @@ class Transaction {
 
 public class Problem1 {
 
-    // Bubble Sort (by fee ASC)
     static void bubbleSort(List<Transaction> list) {
         int n = list.size();
         for (int i = 0; i < n - 1; i++) {

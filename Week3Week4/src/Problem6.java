@@ -30,7 +30,6 @@ public class Problem6 {
         }
         return res;
     }
-
     public static void main(String[] args) {
         int[] arr = {10, 25, 50, 100};
 

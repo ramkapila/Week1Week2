@@ -14,7 +14,6 @@ class Asset {
     }
 }
 public class Problem4 {
-
     public static void main(String[] args) {
         List<Asset> list = Arrays.asList(
                 new Asset("AAPL", 12),

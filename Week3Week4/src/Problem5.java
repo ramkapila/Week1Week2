@@ -8,7 +8,6 @@ public class Problem5 {
 
     static int binarySearch(String[] arr, String target) {
         int low = 0, high = arr.length - 1;
-
         while (low <= high) {
             int mid = (low + high) / 2;
 

@@ -14,7 +14,6 @@ class Client {
         return name + ":" + riskScore;
     }
 }
-
 public class Problem2 {
     static void bubbleSort(Client[] arr) {
         int n = arr.length;

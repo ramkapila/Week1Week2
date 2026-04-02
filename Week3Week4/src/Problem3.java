@@ -44,7 +44,6 @@ public class Problem3 {
         int temp = arr[i + 1]; arr[i + 1] = arr[high]; arr[high] = temp;
         return i + 1;
     }
-
     public static void main(String[] args) {
         int[] arr = {500, 100, 300};
 
