@@ -13,7 +13,6 @@ class Asset {
         return name + ":" + returnRate;
     }
 }
-
 public class Problem4 {
 
     public static void main(String[] args) {
@@ -23,7 +22,6 @@ public class Problem4 {
                 new Asset("GOOG", 15)
         );
 
-        // Merge sort using Collections
         list.sort(Comparator.comparingDouble(a -> a.returnRate));
         System.out.println("Merge: " + list);
 

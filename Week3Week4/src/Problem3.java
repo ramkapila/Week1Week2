@@ -9,9 +9,7 @@ public class Problem3 {
             mergeSort(arr, l, m);
             mergeSort(arr, m + 1, r);
             merge(arr, l, m, r);
-        }
-    }
-
+        }}
     static void merge(int[] arr, int l, int m, int r) {
         int[] left = Arrays.copyOfRange(arr, l, m + 1);
         int[] right = Arrays.copyOfRange(arr, m + 1, r + 1);

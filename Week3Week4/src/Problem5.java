@@ -18,7 +18,6 @@ public class Problem5 {
         }
         return -1;
     }
-
     public static void main(String[] args) {
         String[] arr = {"accA", "accB", "accB", "accC"};
 

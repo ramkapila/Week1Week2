@@ -10,14 +10,12 @@ class Client {
         this.riskScore = riskScore;
         this.balance = balance;
     }
-
     public String toString() {
         return name + ":" + riskScore;
     }
 }
 
 public class Problem2 {
-
     static void bubbleSort(Client[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
