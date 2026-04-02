@@ -15,7 +15,6 @@ public class Problem6 {
         }
         return res;
     }
-
     static int ceiling(int[] arr, int target) {
         int low = 0, high = arr.length - 1, res = -1;
 
@@ -31,7 +30,6 @@ public class Problem6 {
         }
         return res;
     }
-
     public static void main(String[] args) {
         int[] arr = {10, 25, 50, 100};
 
